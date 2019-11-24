@@ -1,0 +1,37 @@
+{
+  "name": "@dotplants/creating-social-portal",
+  "repository": "https://github.com/dotplants/creating.social.git",
+  "author": "dotPlants HQ <oss@dotplants.net>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint:prettier": "pretty-quick --check",
+    "lint:js": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "lint": "npm-run-all lint:* -s",
+    "format:prettier": "pretty-quick",
+    "format:js": "eslint --fix --ignore-path .gitignore \"**/*.js\"",
+    "format": "npm-run-all format:* -s"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.4.1",
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "emotion-theming": "^10.0.19",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@yuzulabo/eslint-config": "^1.0.1",
+    "@yuzulabo/prettier-config": "^1.0.1",
+    "eslint": "^6.7.0",
+    "eslint-plugin-react": "^7.16.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "prettier": "@yuzulabo/prettier-config"
+}

@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "creating-social-portal",
+  "scope": "dotplants",
+  "alias": ["creating.social"],
+  "regions": ["hnd1"],
+  "public": false,
+  "github": { "silent": true }
+}
